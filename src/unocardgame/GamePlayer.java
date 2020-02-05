@@ -1,4 +1,4 @@
-package cardgameweek4;
+package unocardgame;
 /**
  * A class to handle the user interaction for the Card
  * project. Contains a main method that generates a card hand

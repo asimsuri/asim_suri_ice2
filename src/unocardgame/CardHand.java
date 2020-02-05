@@ -1,4 +1,4 @@
-package cardgameweek4;
+package unocardgame;
 /**
  * a class that models the Card Hand.
  * A Card hand has an array of cards. 
@@ -8,7 +8,7 @@ package cardgameweek4;
 
 public class CardHand {
 
-        private int handSize = 52;
+        private int handSize = 108;
 	public Card[] cards = new Card[handSize];
 
 	

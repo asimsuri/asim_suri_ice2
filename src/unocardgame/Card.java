@@ -1,4 +1,4 @@
-package cardgameweek4;
+package unocardgame;
 /**
  * Starter code for the Card class.
  * To be used in Week 4.
@@ -6,8 +6,8 @@ package cardgameweek4;
  */
 public class Card {
     
-        public enum Suit {HEARTS, CLUBS,SPADES,DIAMONDS};
-        public enum Value{ACE, TWO, THREE, FOUR, FIVE, SIX, SEVEN, EIGHT, NINE, TEN, JACK, QUEEN, KING};
+        public enum Suit {RED, GREEN, YELLOW, BLUE};
+        public enum Value{ONE, TWO, THREE, FOUR, FIVE, SIX, SEVEN, EIGHT, NINE};
         private final Suit suit;
         private final Value value;
         
@@ -15,12 +15,14 @@ public class Card {
         {
            suit =s;
            value= gVal;
+           
         }
 	public Value getValue() {
 		return this.value;
 	}
-
-	
+        
+        
+        	
 	public Suit getSuit() {
 		return this.suit;
         }
